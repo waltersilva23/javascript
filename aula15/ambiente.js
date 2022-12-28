@@ -1,8 +1,5 @@
 let num = [5, 8, 4, 6, 7]
 
-i = 0
+a = num.indexOf(4)
 
-while (i<=4) {
-    console.log(num[i])
-    i++
-}
+console.log(a)
